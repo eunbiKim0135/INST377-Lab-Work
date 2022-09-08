@@ -1,20 +1,38 @@
-include your HTML opening tags
-and your hidden "head" tag
-and your "title" tag
+<! DOCTYPE html>
+<html>
+  <head hidden>
+    <title>Eunbi Kim's Labs For INST377</title>
+  </head>
 
 
-full-width wrapper div
-  header containing: YOUR NAME's Labs For INST377
-  container div
-      left div
-        sub-header saying "albums"
-        Your top 5 albums in an ordered list
-      right div (main div for the site)
-        sub-header saying "image carousel"
-          div to contain four images
-            four images of mochi from your readings, all square (they're four different image types!)
-          div to contain a description or text
-            description of images
-
-
-full-width page footer containing your github account name and a link to your gitHub account
+  <body>
+    <div class="wrapper"></div>
+    <h1>Eunbi Kim's Labs For INST377</h1>
+    <div>
+      <div>
+        <h2>Albums</h2>
+        <ol>
+          <li>Kate Bush - Hounds of Love (2018 Remaster)</li>
+          <li>NewJeans - 1st EP 'New Jeans'</li>
+          <li>Harry Styles - Harry's House</li>
+          <li>The Weekend - Dawn FM</li>
+          <li>John Williams - Harry Potter and The Sorcerer's Stone Original Motion Picture Soundtrack</li>
+        </ol> 
+      </div>
+        <h2>Image Carousel</h2>
+          <div>
+            <img src="images/mochi.jpg" width="150"/>
+            <img src="images/mochi.gif" width="150"/>
+            <img src="images/mochi.png" width="150"/>
+            <img src="images/mochi.svg" width="150"/>
+          </div>
+          <div>
+            <p>JPG images are good for photos.</p>
+            <p>GIFs are good for animation.</p>
+            <p>PNGs are good for diagrams and icons</p>
+            <p>SVGs can be used anywhere you want</p>
+          </div>
+    </div>
+    <footer><p>'eunbiKim0135' or 'Eunbi Kim' <a href="https://github.com/eunbiKim0135">https://github.com/eunbiKim0135</a></p></footer>
+  </body>
+</html>
